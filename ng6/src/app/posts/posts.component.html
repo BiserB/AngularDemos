@@ -1,0 +1,13 @@
+<h1 class="text-center">{{ pageTitle }}</h1>
+
+<ul>
+  <li *ngFor = "let post of posts$">
+      <ul>
+          <li>PostID: {{post.id}}</li>
+          <li>Title: {{post.title}}</li>
+          <li>Body: {{post.body}}</li>
+        </ul>
+  </li>
+</ul>
+
+
